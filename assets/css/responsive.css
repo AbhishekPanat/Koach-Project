@@ -398,6 +398,7 @@
     }
     .mainBox{
         height: auto;
+        margin: auto;
     }
     .submainBox
     {
