@@ -36,6 +36,19 @@
     {
         left: -45px;
     }
+    .ImpactImages
+    {
+        right: -5px;
+        bottom: 21.5rem;
+    }
+    .ImpactSliderBox1
+    {
+        gap: 3.4rem !important;
+    }
+    .ImpactVideos
+    {
+        margin-left: 140px !important;
+    }
 }
 
 @media screen and (min-width:990px) and (max-width:1199px) {
@@ -244,10 +257,33 @@
     }
     .submainBox
     {
-        width: 516px;
+        width: auto;
     }
     .InputTypeTextarea {
         width: 380px;
+    }
+
+    /* Service Css */
+
+    .ServiceSectorBox
+    {
+        gap: 3.5rem;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    /* Company */
+    .CompanyTeamContainer
+    {
+        margin-left: 150px;
+    }
+    .CompanyTeamRow
+    {
+        gap: 2rem;
+    }
+    .CompanyTeamMT-5
+    {
+        margin-top: auto;
     }
 }
 @media screen and (max-width: 912px){
@@ -435,6 +471,36 @@
     {
         margin-left: 70px;
     }
+
+    /* Service Css */
+
+    .ServiceSectorBox
+    {
+        gap: 2.5rem;
+    }
+
+    /* Impact Css */
+    .ImpactVideos
+    {
+        margin-left: auto !important;
+    }
+    .ImpactImages
+    {
+        display: none;
+    }
+    .mt
+    {
+        margin-bottom: 2.125rem;
+    }
+
+    /* Company Css */
+    .CompanyTeamRow
+    {
+        justify-content: center;
+    }
+    .CompanyTeamContainer {
+        margin-left: auto;
+    }
 }
 @media screen and (max-width: 600px){
     .SectionThreeIconBox{
@@ -497,7 +563,39 @@
     .Footer .FooterRow
     {
         gap: 2rem;
-    }         
+    }   
+    .submainBox
+    {
+        width: 516px;
+    }   
+    .ServiceSectorBox
+    {
+        padding-top: 100px;
+        flex-flow: wrap;
+        width: 407px;
+    } 
+    .ServiceSectorBox .col
+    {
+        flex: none;
+    }  
+    .Service-Content-Left
+    {
+        justify-content: left !important;
+    }
+    .Service-Text-Left
+    {
+        text-align: left !important;
+    }
+
+    /* Company Css */
+    .CompanyTeamHeading
+    {
+        width: auto;
+    }
+    .CompanyTeamRow
+    {
+        margin-left: 70px;
+    }
 }
 @media screen and (max-width: 420px){
     .CustomFontSizeSectionOne
@@ -645,6 +743,10 @@
     .SectionRequestDemo .container
     {
         align-items: flex-start !important;
+    }
+    .CompanyTeamRow
+    {
+        margin-left: auto;
     }
 
 }

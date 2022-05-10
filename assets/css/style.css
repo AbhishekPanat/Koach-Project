@@ -405,7 +405,7 @@ input:focus, textarea:focus, select:focus{
 
 .SectionThreeIconBox
 {
-    padding: 5rem 2rem 5rem 8rem;
+    padding: 55.99px 2rem 5rem 8rem;
 }
 
 .hero-img
@@ -458,6 +458,12 @@ input:focus, textarea:focus, select:focus{
 .SectionImpactImageBox{
     text-align: end;
 }
+.SectionImpactSliderBox1
+{
+    gap: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
 .SectionImpactSliderBox2
 {
     background: #6606EF;border: 1px solid rgba(255, 255, 255, 0.1);border-radius: 48px 8px 48px 0px;padding: 32px 44px 20px 44px; width: 392px;height: 256px;
@@ -473,4 +479,28 @@ input:focus, textarea:focus, select:focus{
 {
     display: flex;
     justify-content: center;
+}
+
+/* Services CSS */
+
+.ServiceSectorBox
+{
+    display: flex; margin-top: 4.125rem; gap: 7.5rem; justify-content: center;
+}
+
+/* Impact Css */
+
+.ImpactImages
+{
+    position: absolute; right: -30px; bottom: 19.5rem;
+}
+
+/* Company Css */
+.CompanyTeamMT-5
+{
+    margin-top: 3rem;
+}
+.CompanyTeamHeading
+{
+    font-weight: 700; font-size: 42px; line-height: 60px; width: 44.625rem; text-align: center;
 }
