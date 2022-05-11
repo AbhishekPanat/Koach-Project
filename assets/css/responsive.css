@@ -49,6 +49,36 @@
     {
         margin-left: 140px !important;
     }
+    #carouselExampleControls
+    {
+        width: 43% !important;
+    }
+
+    /* Service Css */
+
+    .ServiceBorder
+    {
+        left: 200px;
+    }
+    .ServiceIconBox
+    {
+        top: 90px;
+    }
+    .ServiceBlur
+    {
+        top: 60px;
+        right: 185px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 130px;
+    }
+    .ServiceImageBox2
+    {
+        top: 230px;
+        right: 150px;
+    }
 }
 
 @media screen and (min-width:990px) and (max-width:1199px) {
@@ -217,6 +247,29 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* Service Css */
+
+    .ServiceIconBox
+    {
+        top: 100px;
+        right: 120px;
+    }
+    .ServiceBlur
+    {
+        top: 70px;
+        right: 93px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 50px;
+    }
+    .ServiceImageBox2
+    {
+        top: 230px;
+        right: 80px;
+    }
     
 }
 
@@ -284,6 +337,10 @@
     .CompanyTeamMT-5
     {
         margin-top: auto;
+    }
+    #carouselExampleControls
+    {
+        width: 60% !important;
     }
 }
 @media screen and (max-width: 912px){
@@ -443,6 +500,9 @@
     .InputTypeText{
         width: auto;
     }
+    .InputTypeTextarea {
+        width: 560px;
+    }
     .Footer
     {
         margin-left: auto;
@@ -478,6 +538,31 @@
     {
         gap: 2.5rem;
     }
+    .ServiceBorder
+    {
+        top: 100px;
+        left: 100px;
+    }
+    .ServiceIconBox
+    {
+        top: 135px;
+        left: 270px;
+    }
+    .ServiceBlur
+    {
+        top: 105px;
+        left: 240px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 30px;
+    }
+    .ServiceImageBox2
+    {
+        top: 240px;
+        left: 280px;
+    }
 
     /* Impact Css */
     .ImpactVideos
@@ -500,6 +585,10 @@
     }
     .CompanyTeamContainer {
         margin-left: auto;
+    }
+    #carouselExampleControls
+    {
+        width: 81% !important;
     }
 }
 @media screen and (max-width: 600px){
@@ -595,6 +684,10 @@
     .CompanyTeamRow
     {
         margin-left: 70px;
+    }
+    #carouselExampleControls
+    {
+        width: 100% !important;
     }
 }
 @media screen and (max-width: 420px){
@@ -749,6 +842,45 @@
         margin-left: auto;
     }
 
+    /* Services Css */
+    .ServiceBorder
+    {
+        width: 201.67px;
+        height: 201.67px;
+    }
+    .ServiceIconBox
+    {
+        top: 145px;
+        left: 250px;
+        width: 60px;
+        height: 60px;
+    }
+    .ServiceBlur
+    {
+        top: 120px;
+        left: 225px;
+        width: 108.33px;
+        height: 108.33px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 100px;
+        width: 146.67px;
+        height: 183.33px;
+    }
+    .ServiceImageBox2
+    {
+        top: 240px;
+        left: 230px;
+        width: 130px;
+        height: 130px;
+    }
+    .ServiceSectorBox
+    {
+        width: 297px;
+    }
+
+
 }
 @media screen and (max-width: 395px){
     .SectionThreeIconBox
@@ -792,6 +924,32 @@
     {
         left: 0px;
         gap: 0rem;
+    }
+
+    /* Services CSS */
+    .ServiceBorder
+    {
+        left: 50px;
+    }
+    .ServiceIconBox
+    {
+        left: 200px;
+    }
+    .ServiceBlur
+    {
+        left: 175px;
+    }
+    .ServiceImageBox1
+    {
+        left: 0px;
+    }
+    .ServiceImageBox2
+    {
+        left: 195px;
+    }
+    .ServiceSectorBox
+    {
+        width: 297px;
     }
 
 }

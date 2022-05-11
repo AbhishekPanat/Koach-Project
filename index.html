@@ -15,7 +15,63 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <title>Koach.ai</title>   
+    <title>Koach.ai</title> 
+
+    <style>
+        .NavButtonBackground
+        {
+            background-color: #6606EF;color: #fff !important;
+        }
+        .btn-primary:hover{
+            background-color: #6606EF
+        }
+        .HomeHoverBox
+        {
+            transition: all 1s ease-out;
+        }
+        .ServiceImageBox1
+        {
+            animation: rotate 3s linear infinite;
+        }
+        .ServiceImageBox2
+        {
+            animation: rotate1 3s linear infinite;
+        }
+        .ServiceIconBox
+        {
+            animation: rotate2 3s linear infinite;
+        }
+
+        
+
+        @keyframes rotate {
+				from {
+                    transform: translateX(10%);
+				}
+
+				to {
+					transform: translateX(0%);
+				}
+			}
+            @keyframes rotate1 {
+				from {
+					transform: translateX(0%);
+				}
+
+				to {
+					transform: translateX(10%);
+				}
+			}
+            @keyframes rotate2 {
+				from {
+					transform: translateX(0%);
+				}
+
+				to {
+					transform: translateX(10%);
+				}
+			}
+    </style> 
 </head>
 
 <body>
@@ -32,19 +88,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav" style="gap: 2rem;">
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link active CustomColor f-w-600" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active CustomColor f-w-600" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Services</a>
+                        <a class="nav-link MenuButton f-w-600" href="services.html">Services</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Impact</a>
+                        <a class="nav-link MenuButton f-w-600" href="impacts.html">Impact</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Company</a>
+                        <a class="nav-link MenuButton f-w-600" href="company.html">Company</a>
                     </li>
                     <li class="nav-item px-2 FontWeight300 CustomColor">
-                        <a href="javascript:void(0)" class="btn btn-outline-primary" style="color: #6606EF;
+                        <a href="javascript:void(0)" id="Btn1" class="btn btn-outline-primary" style="color: #6606EF;
                         border-color: #6606EF;border-radius: 30px;padding-right: 1.5rem!important;padding-left: 1.5rem;font-size: 14px;">Request Demo</a>
                     </li>
                 </ul>
@@ -84,8 +140,8 @@
     <section class="d-flex align-items-center pb-100">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 hero-img">
-                    <div style="margin-top: 73px;">
+                <div class="col-lg-6 order-2 order-lg-1 HomeHoverBox hero-img position-relative">
+                    <!-- <div style="margin-top: 73px;">
                         <div class="d-flex position-relative">
                             <div style="position: relative; left: 50px;bottom: 60px;">
                                 <img src="assets/images/SectionTwoImage1.png" alt="" class="rounded-circle img-fluid">
@@ -97,11 +153,16 @@
                                 <img src="assets/images/SectionTwoImage3.svg" alt="" class="">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <div class="ServiceBorder" style="border: 2px solid #6606EF;"></div>
+                    <div class="ServiceIconBox"></div>
+                    <div class="ServiceBlur" style="background: #7856FF;"></div>
+                    <div class="ServiceImageBox1"></div>
+                    <div class="ServiceImageBox2"></div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
-                        <p class="">We will help you <span class="CustomBlueColor">get a job</span></p>
+                        <p class="Testing">We will help you <span class="CustomBlueColor">get a job</span></p>
                     </h1>
                     <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 1rem;line-height: 28px;">We will help your frontline workers in getting a job
                         by equipping them with essential skills to move ahead in their professional lives.</h5>
@@ -135,7 +196,7 @@
             <div class="SectionThreeIconBox">
                 <div class="SectionThreeIconContainer">
                     <div class="d-flex flex-column" style="gap: 1rem;">
-                        <img src="assets/images/SkillIcon1.png" alt=""style="height: 3.5rem;" class="img-fluid">
+                        <img src="assets/images/SkillIcon1.svg" alt=""style="height: 3.5rem;" class="img-fluid">
                         <p class="SkillBelowIconText" style="display: block;">Manage Self</p>
                     </div>
                     <div class="d-flex flex-column" style="gap: 1rem;">
@@ -170,7 +231,7 @@
                         <img src="assets/images/SectionFourIcon4.svg" alt="" style="width: 280px; "
                             class="rounded-circle img-fluid">
                     </div>
-                    <div class="text-center SectionFourBox3" style="">
+                    <div class="text-center SectionFourBox3">
                         <img src="assets/images/SectionFourIcon1.svg" alt="" style="width: 309.55px;
                         height: 311.13px;"
                             class="rounded-circle img-fluid">
@@ -437,26 +498,26 @@
             </div>
             <div class="SectionImpactBox">
                 <div style="display: flex; justify-content: center; flex-direction: column;">
-                    <h4 class="impact-h4">90%</h4>
+                    <h4 class="impact-h4"><span class="counter">90</span>%</h4>
                     <p class="impact-p">Live Classes</p>
                 </div>
                 <div style="display: flex; justify-content: center; flex-direction: column;">
-                    <h4 class="impact-h4">60%</h4>
+                    <h4 class="impact-h4"><span class="counter">60</span>%</h4>
                     <p class="impact-p">Lower Cost</p>
                 </div>
                 <div style="display: flex; justify-content: center; flex-direction: column;">
-                    <h4 class="impact-h4">5x</h4>
+                    <h4 class="impact-h4"><span class="counter">5</span>x</h4>
                     <p class="impact-p">Scalability</p>
                 </div>
                 <div style="display: flex; justify-content: center; flex-direction: column;">
-                    <h4 class="impact-h4">100%</h4>
+                    <h4 class="impact-h4"><span class="counter">100</span>%</h4>
                     <p class="impact-p">Mainstream Inclusion</p>
                 </div>
             </div>
 
             
             
-            <div id="carouselExampleControls" class="carousel slide pt-5" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide pt-5" data-ride="carousel" style="width: 50%;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="SectionImpactSliderBox">
@@ -590,7 +651,7 @@
                     </div>
                 </div>
                 <div class="submainBox">
-                    <form action="#">
+                    <form action="#" id="fupForm">
                         <div class="row">
                             <div class="col-lg-6" style="padding-bottom: 40px;">
                                 <label for="name" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Name</label>
@@ -629,7 +690,7 @@
                                 <textarea placeholder="Can you provide more details?" id="Message" name="Message" class="InputTypeTextarea"></textarea>
                             </div>
                             <div class="col-lg-12">
-                                <input type="submit" name="submit" id="submit" value="Request Demo" class="btn" style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 22.31px;"/>
+                                <input type="submit" name="submit" id="submit" value="Request Demo" class="btn submitBtn" style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 22.31px;"/>
                             </div>
                         </div>
                     </form>
@@ -700,10 +761,113 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            $("#fupForm").on('submit', function(e){
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: 'process.php',
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData:false,
+                    beforeSend: function(){
+                        $('.submitBtn').attr("disabled","disabled");
+                        $('#fupForm').css("opacity",".5");
+                    },
+                    success: function(response){
+                        console.log(response);
+                        if(response.status == 1){
+                            $('#fupForm')[0].reset();
+                            $("#divclg").hide();
+                                toastr.options = {
+                                  "closeButton": true,
+                                  "debug": false,
+                                  "newestOnTop": true,
+                                  "progressBar": true,
+                                  "positionClass": "toast-top-right",
+                                  "preventDuplicates": false,
+                                  "onclick": null,
+                                  "showDuration": "300",
+                                  "hideDuration": "1000",
+                                  "timeOut": "5000",
+                                  "extendedTimeOut": "1000",
+                                  "showEasing": "swing",
+                                  "hideEasing": "linear",
+                                  "showMethod": "fadeIn",
+                                  "hideMethod": "fadeOut"
+                                }
+                                toastr["success"](response.message, "Success");
+                        }else{
+                            toastr.options = {
+                                  "closeButton": true,
+                                  "debug": false,
+                                  "newestOnTop": true,
+                                  "progressBar": true,
+                                  "positionClass": "toast-top-right",
+                                  "preventDuplicates": false,
+                                  "onclick": null,
+                                  "showDuration": "300",
+                                  "hideDuration": "1000",
+                                  "timeOut": "5000",
+                                  "extendedTimeOut": "1000",
+                                  "showEasing": "swing",
+                                  "hideEasing": "linear",
+                                  "showMethod": "fadeIn",
+                                  "hideMethod": "fadeOut"
+                                }
+                                toastr["error"](response.message, "Error");
+                            //$('.statusMsg').html('<p class="alert alert-danger">'+response.message+'</p>');
+                        }
+                        $('#fupForm').css("opacity","");
+                        $(".submitBtn").removeAttr("disabled");
+                    }
+                });
+            });
+        });
+        jQuery(window).on('scroll', function () {
+                console.log(jQuery(window).scrollTop());
+                if (jQuery(window).scrollTop() > 540) {
+                    $('#Btn1').addClass('btn-primary');
+                    $('#Btn1').addClass('NavButtonBackground');
+                    $('#Btn1').removeClass('btn-outline-primary');
+                } 
+                else {
+                    $('#Btn1').addClass('btn-outline-primary');
+                    $('#Btn1').removeClass('btn-primary');
+                    $('#Btn1').removeClass('NavButtonBackground');
+                }
+            });
+
+            const text =   document.querySelector(".Testing");
+            const textLoad = () => {
+                setTimeout(()=>{
+                    text.textContent="TEsting 1";
+                },0);
+                setTimeout(()=>{
+                    text.textContent='We will help you <span class="CustomBlueColor">get a job</span>';
+                },3000);
+                setTimeout(()=>{
+                    text.textContent="TEsting 3";
+                },6000);
+            }
+            textLoad();
+            setInterval(textLoad,9000);
+    </script>
     
 </body>
 

@@ -16,6 +16,10 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
     <style>
         
+        /* .ImageSet
+        {
+            opacity: 0;
+        } */
         .OnHover{
             bottom: -1rem; 
             gap: 8px; 
@@ -25,11 +29,15 @@
             border-radius: 16px; 
             position: absolute; 
             text-align: center;
+            transition: all 1s ease-out;
+        }
+        .ImageHover
+        {
+            transition: all 1s ease-out;
         }
         .HoverBox:hover .OnHover{
             height: 267.66px;
-            z-index: 0;
-            transition: all 1s ease;
+            z-index: 0;            
         }
         .HoverBox:hover .ImageHover{
             height: 169.42px;
@@ -41,7 +49,6 @@
             background: #E5E5E5;
             bottom: 11rem;
             margin-bottom: 1rem;
-            transition: all 1s ease-out;
             
         }
         .HoverBox:hover .ImageSet{
@@ -50,7 +57,7 @@
             border-radius: 50%;
             position: relative;
             left: 0rem;
-            transition: all 1s ease-out;
+            /* opacity: 1; */
         }
         .OnHoverText{
             font-weight: 300; 
@@ -60,8 +67,9 @@
         }
         .HoverBox:hover .OnHoverText{
             display: block;
-            transition: all 1s ease-out;
         }
+
+        
     </style>
     <title>Koach.ai</title>   
 </head>
@@ -80,16 +88,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav" style="gap: 2rem;">
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link active CustomColor f-w-600" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active CustomColor f-w-600" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Services</a>
+                        <a class="nav-link MenuButton f-w-600" href="services.html">Services</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Impact</a>
+                        <a class="nav-link MenuButton f-w-600" href="impacts.html">Impact</a>
                     </li>
                     <li class="nav-item px-2 f-w-600">
-                        <a class="nav-link MenuButton f-w-600" href="#">Company</a>
+                        <a class="nav-link MenuButton f-w-600" href="company.html">Company</a>
                     </li>
                     <li class="nav-item px-2 FontWeight300 CustomColor">
                         <a href="javascript:void(0)" class="btn btn-outline-primary" style="color: #6606EF;
